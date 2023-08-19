@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --dark-blue: #3A4895;    
+    --white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    font-family: 'Inter';
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--dark-blue);
+    padding: 2vh;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}

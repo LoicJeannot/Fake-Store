@@ -1,0 +1,30 @@
+.details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.description-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    margin: 10px;
+}
+
+.details-container img {
+    width: 40vh;
+    height: 40vh;
+}
+
+.detail-btn {
+    color: black;
+    background-color: gold
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 5px;
+}

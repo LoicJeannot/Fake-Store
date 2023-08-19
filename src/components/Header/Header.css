@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --dark-blue: #3A4895;    
+    --white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    font-size: 24px;
+}
+
+.container-right {
+    position: relative;
+}
+
+.cart-number {
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+}
+
+header a {
+    color: #3A4895;
+    text-decoration: none;
+}
+
+.shopping-icon {
+    color: #3A4895;
+    position: absolute;
+    right: 6px;
+    bottom: -16px;
+    z-index: 0;
+    height: 24px;
+    width: 24px;
+}
